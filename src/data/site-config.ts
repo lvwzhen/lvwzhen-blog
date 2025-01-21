@@ -38,12 +38,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Lvwzhen',
+    subtitle: 'A blog about my journey into the world of software development',
+    description: 'A blog about my journey into the world of software development',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Lvwzhen - A blog about my journey into the world of software development'
     },
     headerNavLinks: [
         {
@@ -53,18 +53,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Blog',
             href: '/blog'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }, 
-        {
-            text: 'About',
-            href: '/about'
         },
     ],
     footerNavLinks: [

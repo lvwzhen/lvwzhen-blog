@@ -51,49 +51,25 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
             text: 'Blog',
             href: '/blog'
         },
         {
+            text: 'Projects',
+            href: '/projects'
+        },
+        {
             text: 'Tags',
             href: '/tags'
-        }
-    ],
-    footerNavLinks: [
+        }, 
         {
             text: 'About',
             href: '/about'
         },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+    ],
+    footerNavLinks: [
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
     ],
     hero: {
         title: 'Hi There & Welcome to My Corner of the Web!',
